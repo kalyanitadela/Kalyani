@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyani Tadela | Data Science & AI Portfolio</title>
+    <meta name="description" content="Portfolio of Kalyani Tadela - Data Science Student, Machine Learning & AI Enthusiast.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kalyani Tadela | Data Science & AI Portfolio">
+    <meta property="og:description" content="Explore projects, internships, certifications, and technical skills in Data Science and Machine Learning.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-header">
+        <nav class="navbar container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-box">KT</span>
+                <span class="logo-text">Kalyani Tadela</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="mobile-only">
+                    <a href="assets/resume.pdf" download class="btn btn-outline btn-sm"><i class="fa-solid fa-download"></i> Resume</a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" download class="btn btn-primary btn-sm desktop-only">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="status-dot"></span> B.Tech Data Science (2022–2026)
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Kalyani Tadela</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Data Science & AI/ML Enthusiast</h2>
+                    <p class="hero-description">
+                        An enthusiastic learner passionate about solving complex real-world problems using Machine Learning, Deep Learning, and Computer Vision. Adapts creatively to build data-driven solutions and intelligent software.
+                    </p>
+                    
+                    <div class="hero-details">
+                        <span><i class="fa-solid fa-location-dot"></i> Sivaram, Vizianagaram</span>
+                        <span><i class="fa-solid fa-graduation-cap"></i> Sasi Institute of Technology & Engineering</span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+                        <a href="assets/resume.pdf" download class="btn btn-outline"><i class="fa-solid fa-download"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://codechef.com" target="_blank" aria-label="CodeChef Profile"><i class="fa-solid fa-code"></i></a>
+                        <a href="mailto:kalyanitadela17@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="avatar-card">
+                        <div class="avatar-wrapper">
+                            <img src="assets/profile.jpg" alt="Kalyani Tadela" class="avatar-img" onerror="this.src='https://ui-avatars.com/api/?name=Kalyani+Tadela&background=0e7490&color=fff&size=256'">
+                        </div>
+                        <div class="glass-tag tag-top"><i class="fa-solid fa-brain"></i> Deep Learning</div>
+                        <div class="glass-tag tag-bottom"><i class="fa-solid fa-database"></i> SQL & MongoDB</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card highlight-card">
+                        <i class="fa-solid fa-compass-drafting about-icon"></i>
+                        <h3>Career Objective</h3>
+                        <p>I'm an enthusiastic learner ready to tackle new challenges. I thrive on creativity and adaptability, and I'm eager to dive into exciting projects. I am a curious student excited about exploring new ideas and opportunities in Data Science, AI, and Software Engineering.</p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-brain"></i></div>
+                            <div>
+                                <h4>Data Science & AI</h4>
+                                <p>Applied experience in machine learning pipelines, deep learning models (ResNet50, YOLOv8), and AI dashboards.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div>
+                                <h4>Practical Internships</h4>
+                                <p>Completed hands-on internship programs with SkillDzire (APSCHE), EduSkills (AICTE/Google), and Nyeras Edu-Tech.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                            <div>
+                                <h4>Soft Skills</h4>
+                                <p>Strong emphasis on effective communication, proactive problem solving, and structured teamwork.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Proficiency</span>
+                    <h2 class="section-title">Skills & Capabilities</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">C</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-globe"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript (Basics)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">MongoDB (Basics)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-microchip"></i>
+                            <h3>AI & Core Concepts</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Machine Learning Basics</span>
+                            <span class="tech-tag">Deep Learning Basics</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Data Preprocessing</span>
+                            <span class="tech-tag">Exploratory Data Analysis</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">VS Code</span>
+                            <span class="tech-tag">Jupyter Notebook</span>
+                            <span class="tech-tag">TensorFlow / Keras</span>
+                            <span class="tech-tag">Pandas & NumPy</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-user-check"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Communication</span>
+                            <span class="tech-tag">Problem Solving</span>
+                            <span class="tech-tag">Teamwork</span>
+                            <span class="tech-tag">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Practical Experience</span>
+                    <h2 class="section-title">Internships</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Internship 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Data Science with AI Intern</h3>
+                                    <h4 class="company-name">Nyeras Edu-Tech and Innovations Pvt. Ltd. (Remote)</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2025 – June 2025</span>
+                            </div>
+                            <p class="timeline-body">
+                                Gained practical experience applying data science and artificial intelligence techniques to solve real-world problems.
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Performed data preprocessing and Exploratory Data Analysis (EDA) on real datasets.</li>
+                                <li>Developed Machine Learning models and integrated AI components for decision-making systems.</li>
+                            </ul>
+                            <div class="timeline-tech">
+                                <span>Data Science</span><span>AI Integration</span><span>Machine Learning</span><span>EDA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Machine Learning Intern</h3>
+                                    <h4 class="company-name">SkillDzire Technologies (Collaborated with APSCHE)</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> April 2024 – July 2024</span>
+                            </div>
+                            <p class="timeline-body">
+                                Successfully completed a 2-month short-term internship program organized by SkillDzire in collaboration with the Andhra Pradesh State Council of Higher Education (APSCHE).
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Gained hands-on experience applying machine learning techniques to real-world datasets.</li>
+                                <li>Worked on algorithmic modeling and statistical evaluations.</li>
+                            </ul>
+                            <div class="timeline-tech">
+                                <span>Machine Learning</span><span>Python</span><span>Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Android Development Virtual Intern</h3>
+                                    <h4 class="company-name">India Educates (EduSkills + AICTE + Google)</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> April 2024 – June 2024</span>
+                            </div>
+                            <p class="timeline-body">
+                                Completed a virtual internship program designed to help aspiring developers build practical mobile development skills.
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Conducted in collaboration with EduSkills and AICTE with additional involvement from Google.</li>
+                                <li>Focused on mobile app building principles and practical Android projects.</li>
+                            </ul>
+                            <div class="timeline-tech">
+                                <span>Android</span><span>EduSkills</span><span>AICTE</span><span>Google Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portfolio & Solutions</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fa-solid fa-city"></i></div>
+                            <span class="project-badge">AI & Computer Vision</span>
+                        </div>
+                        <h3 class="project-title">AI-Based Public Infrastructure Complaint Analysis & Monitoring Dashboard</h3>
+                        <p class="project-desc">
+                            An end-to-end AI system using YOLOv8 for automated infrastructure issue detection and Mistral-7B for automated complaint description generation, featuring a centralized dashboard for hotspot visualization.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span>YOLOv8</span>
+                            <span>Mistral-7B</span>
+                            <span>AI Monitoring</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fa-solid fa-apple-whole"></i></div>
+                            <span class="project-badge">Deep Learning</span>
+                        </div>
+                        <h3 class="project-title">Fruit Classification Using ResNet</h3>
+                        <p class="project-desc">
+                            Developed a Deep Learning-based Fruit Classification System using ResNet50 with transfer learning to accurately identify different fruit types from images. Implemented data preprocessing and augmentation using Tenso
